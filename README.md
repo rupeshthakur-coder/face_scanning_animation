@@ -1,16 +1,2 @@
 # face_scaning_animation
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter project showcases an Animated Text with Face Analysis Visualization, combining dynamic label transitions, a scanning effect, and pulsing analysis points using CustomPainter. Labels cycle through predefined positions and colors, while a scan line sweeps over a face-shaped region, with glowing points highlighting analysis areas. The app supports an optional background image for customization. To use, clone the repository, install dependencies with flutter pub get, and run the app with flutter run. The code is modular, with AnimatedText managing animations and FaceAnalysisPointsPainter handling custom visualizations. Contributions are welcome, and the project is licensed under MIT. For more details, visit the GitHub repository.
