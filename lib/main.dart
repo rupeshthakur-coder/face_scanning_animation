@@ -1,4 +1,4 @@
-import 'package:face_scaning_animation/face_animation_page.dart';
+import 'package:face_scaning_animation/profile/profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimatedText(
-        backgroundImage: 'assets/images/background.png',
-      ),
+      home: const ProfilePage(),
     );
   }
 }
